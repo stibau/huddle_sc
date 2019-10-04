@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.headers{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;    
+}
+
+.logo{
+    margin: 75px auto 160px 95px;
+}
+
+.middle-container
+{
+    text-align: center;
+}
+
+.explanatory{
+    width: 53%;
+    color: hsl(208,11%,55%);
+    margin: 0 auto 100px;
+    line-height: 2;
+}
+
+
