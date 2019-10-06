@@ -68,17 +68,18 @@ body{
 }
 
 #logo-in-bottom-container{
-    filter: invert(100%) grayscale(100%) brightness(150%);
-  
+    /*filter: invert(100%);*/
+    /*background-color: #ffffff;*/
 }
 
 #facebook-icon
 {
-width: 10%;
-height: 10%;
-fill: rgb(0,37,46);
-background-color: #ffffff;
-filter: invert(1);
+width: 3%;
+height: 3%;
+
+/*fill: rgb(0,37,46);*/
+/*background-color: #ffffff;
+/*filter: invert(1);*/
 }
 
 /*.butn {
