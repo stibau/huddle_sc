@@ -65,21 +65,49 @@ body{
 
 .bottom-container{
     background-color: rgb(0,37,46);
+    position: relative;
 }
 
-#logo-in-bottom-container{
-    /*filter: invert(100%);*/
-    /*background-color: #ffffff;*/
-}
-
-#facebook-icon
+.social-icon
 {
-width: 3%;
-height: 3%;
+    width: 8%;
+    height: 8%;
+    padding: 5px;
+}
 
-/*fill: rgb(0,37,46);*/
-/*background-color: #ffffff;
-/*filter: invert(1);*/
+.auto-info{
+    color:white;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+#copy-right{
+    color:white;
+    font-size: 12px;
+}
+
+#bottom-logo-container{
+    display: inline-block;
+    margin: 100px 80px 40px 120px;
+}
+
+#bottom-auto-info-container{
+    display: inline-block;   
+    position: absolute; 
+    right: 100px;
+    top: 100px;
+}
+
+#bottom-social-icons-container{
+    display: inline-block;
+    margin: 0px 80px 20px 120px;
+}
+
+#bottom-copy-right-container{
+    display: inline-block;
+    position: absolute;
+    right: 100px;
+    top: 200px;
 }
 
 /*.butn {
