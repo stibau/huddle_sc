@@ -12,18 +12,18 @@ body{
 }
 
 .logo{
-    margin: 75px auto 150px 95px;
+    margin: 8% auto 8% 8%;
 }
 
 .middle-container
 {
     text-align: center;
-    margin-bottom: 200px;
+    margin-bottom: 20%;
 }
 
 .middle-container-registration
 {
-    margin-top: 200px;
+    margin-top: 15%;
 }
 
 .explanatory{
@@ -52,7 +52,6 @@ body{
     margin-left: 20px;
     color: #ffffff;
     background-image: linear-gradient(to bottom,rgb(245,142,187),rgb(223,124,181));
-    /*background: rgb(255,135,191); */
     border-style: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
@@ -75,9 +74,8 @@ body{
 
 .social-icon
 {
-    width: 8%;
-    height: 8%;
-    padding: 5px;
+    width: 40px;
+    height: 40px;    
 }
 
 .auto-info{
@@ -86,56 +84,36 @@ body{
     padding-left: 30px;
 }
 
-#copy-right{
-    color:white;
-    font-size: 12px;
+#logo-in-bottom-container{
+    padding-left:8%;
+    padding-top: 7%;
+    padding-bottom: 4%;
 }
 
-#bottom-logo-container{
+#copy-right{
     display: inline-block;
-    margin: 100px 80px 40px 120px;
+    color:white;
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    bottom:0;
+    padding-right: 8%;    
+    padding-bottom:6%;
 }
 
 #bottom-auto-info-container{
-    display: inline-block;   
+    display: inline-block;  
     position: absolute; 
-    right: 100px;
-    top: 100px;
+    right: 0;
+    padding-top: 7%;
+    padding-right: 8%;
 }
 
 #bottom-social-icons-container{
-    display: inline-block;
-    margin: 0px 80px 20px 120px;
+    display: inline-block;  
+    padding-left: 8%;
+    padding-bottom: 4%;   
 }
-
-#bottom-copy-right-container{
-    display: inline-block;
-    position: absolute;
-    right: 100px;
-    top: 200px;
-}
-
-/*.butn {
-    -webkit-border-radius: 10;
-    -moz-border-radius: 10;
-    border-radius: 10px;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 25px;
-    background: #a8006a;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-  }
-  
-  .butn:hover {
-    background: #3cb0fd;
-    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-    text-decoration: none;
-  }*/
 
 
 
