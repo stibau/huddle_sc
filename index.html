@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">    
+    <meta charset="utf-8">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device --> 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <link rel="stylesheet" href="css/styles.css">
@@ -10,43 +11,44 @@
   </head>
   <body>
     <div class="top-container">
-        <img class="logo" src="images/logo.svg" alt="Huddle logo">        
+        <img id="logo" src="images/logo.svg" alt="Huddle logo">        
     </div>    
     <div class="middle-container">
-      <div class="middle-container-intro">
-        <h1 class="headers">Build The Community Your Fans Will Love</h1>
-
-        <p class="explanatory">Huddle re-imagines the way we build communities. You have a voice, but so does 
-            your audience. Create connections with your users as you engage in genuine discussion.</p>
-      </div>
-      <div class="middle-container-image">
-          <img id="huddle-screen-mockup" src="images/screen-mockups.svg" alt="Huddle screen mockups">  
-      </div>
+      <h1 class="headers">Build The Community Your Fans Will Love</h1>
+      <p id="explanatory">Huddle re-imagines the way we build communities. You have a voice, but so does 
+            your audience. Create connections with your users as you engage in genuine discussion.</p>      
+      
+      <img id="huddle-screen-mockup" src="images/screen-mockups.svg" alt="Huddle screen mockups">  
+      
       <div class = "middle-container-registration">
           <h1 class="headers">Sign Up For Early Access</h1>
-          <form action="">
+          <form id="registration-form" action="">
             <input class="text-input" type="text" placeholder="email@example.com">
             <input class="button-input" type="submit" value="Register">
           </form>
       </div>
     </div>
     <div class="bottom-container">
-      <img id="logo-in-bottom-container" src="images/logobw.svg" alt="Huddle logo inverted and black and white">
+      <div id="bottom-left-container"> 
+        <img id="logo-in-bottom-container" src="images/logobw.svg" alt="Huddle logo inverted and black and white">
+        <div id="bottom-social-icons-container">
+          <img class="social-icon" src="images/facebook.svg" alt="facebook square">
+          <img class="social-icon" src="images/instagram.svg" alt="instagram square">
+          <img class="social-icon" src="images/twitter.svg" alt="twitter square">       
+        </div>
+      </div>
       <div id="bottom-auto-info-container">
-          <a class="auto-info">About Us</a>
-          <a class="auto-info">What We Do</a>
-          <a class="auto-info">FAQ</a>
-          <a class="auto-info">Career</a>
-          <a class="auto-info">Blog</a>
-          <a class="auto-info">Contact Us</a>
+        <a class="auto-info">About Us</a>
+              <a class="auto-info">What We Do</a>
+              <a class="auto-info">FAQ</a>
+              <a class="auto-info">Career</a>
+              <a class="auto-info">Blog</a>
+              <a class="auto-info">Contact Us</a>
       </div>
-      <br>
-      <div id="bottom-social-icons-container">
-        <img class="social-icon" src="images/facebook.svg" alt="facebook square">
-        <img class="social-icon" src="images/instagram.svg" alt="instagram square">
-        <img class="social-icon" src="images/twitter.svg" alt="twitter square">
-      </div>
-      <footer id="copy-right">&copy; 2018 Huddle Copyright</footer>      
-    </div>
+      <div id="bottom-footer-container">
+        <footer id="copy-right">&copy; 2018 Huddle Copyright</footer>      
+      </div> 
+      <div class="clear"></div>     
+    </div>    
   </body>
 </html> 
