@@ -41,6 +41,8 @@ body{
     border-style: none;
     box-shadow: 0px 0px 4px rgb(230, 230, 230);
     margin-right: 20px;
+    padding-left: 20px;
+    font-size: 20px;
 }
 
 .button-input{
@@ -49,17 +51,20 @@ body{
     width: 260px;
     margin-left: 20px;
     color: #ffffff;
-    background: rgb(255,135,191); 
+    background-image: linear-gradient(to bottom,rgb(245,142,187),rgb(223,124,181));
+    /*background: rgb(255,135,191); */
     border-style: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 700;
-
+    cursor: pointer;
 }
 
-::placeholder{
-    padding-left: 25px;
-    font-size: 20px;
+.button-input:hover{
+    background-image: linear-gradient(to bottom,rgb(252,150,196),rgb(226,139,189));
+}
+
+::placeholder{   
     color:rgb(215,216,218)
 }
 
