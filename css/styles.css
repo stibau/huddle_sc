@@ -11,12 +11,24 @@ header{
     width: 25%;
     margin: 8% 5%; 
 }
+@media screen and (min-width: 376px){
+    .header-logo{
+        width: 16%;
+        margin: 4% 5%;
+        
+    }   
+}
 
 /* Main css */
 main{
     background-color: #ffffff;
     margin: 20% 5%;
     text-align: center;
+}
+@media screen and (min-width: 376px){
+    main{
+        margin: 4% 5%;
+    }    
 }
 
 /* Text css */
@@ -27,6 +39,11 @@ main{
     font-size: 1.6rem;
     color: #000000;
 }
+@media screen and (min-width: 376px){
+    .text-header{
+        font-size: 3rem;
+    }    
+}
 
 .explanatory{
     margin: 5% 5%;
@@ -35,16 +52,33 @@ main{
     font-size: 0.9rem;
     color: #808d99
 }
+@media screen and (min-width: 376px){
+    .explanatory{
+        margin: 2% 22.5%;
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }    
+}
 
 /* Huddle image css */
 .huddle-screen-mockup{
-    max-width:100%;
+    max-width: 100%;
     margin: 5% 0;
+}
+@media screen and (min-width: 376px){
+    .huddle-screen-mockup{
+        margin: 2% 0;
+    }    
 }
 
 /* Registration form css */
 .registration-div{
     margin: 20% 5%;   
+}
+@media screen and (min-width: 376px){
+    .registration-div{
+        margin: 15% 5%;
+    }    
 }
 
 .registration-header{
@@ -54,23 +88,38 @@ main{
     font-size: 1.2rem;
     color: #000000;
 }
+@media screen and (min-width: 376px){
+    .registration-header{
+        margin: 2.5% 0;
+        font-size: 3rem;
+    }    
+}
 
 .text-input{    
     width:95%;
     height: 3rem;
     padding-left: 5%;
-    margin: 2.5% 0;  
+    margin: 5% 0;  
     border-radius: 5%;
     border-style: none;
     box-shadow: 0 0 .75rem #e6e6e6;
     font-size: .75rem;
+}
+@media screen and (min-width: 376px){
+    .text-input{
+        width: 45%;
+        height: 4rem;
+        padding-left: 2.5%;
+        margin: 1%;
+        font-size: 1rem;
+    }    
 }
 
 .button-input{   
     width:100%;
     height: 3rem;
     padding: 0 ;
-    margin: 2.5% 0;
+    margin: 5% 0;
     /* the input element of type button gets a box-sizing: border-box */
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
@@ -84,6 +133,15 @@ main{
     font-size: .75rem;
     font-weight: 700;    
 }
+@media screen and (min-width: 376px){
+    .button-input{
+        width: 20%;
+        height: 4rem;
+        margin: 1%;
+        font-size: 1rem;
+        cursor: pointer;
+    }    
+}
 
 .button-input:hover{
     background-image: linear-gradient(to bottom,#fc96c4,#e28bbd);
@@ -91,31 +149,67 @@ main{
 
 ::placeholder{   
     color:#d7d8da;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;    
 }
 
 /* Footer css */
 footer{
     background-color: #00252e;    
-    padding: 10% 10%;
+    padding: 5% 8% 1%;
+}
+@media screen and (min-width: 376px){
+    .footer{
+        padding: 12 10;
+    }    
 }
 
 .logo-in-footer{
     width: 70%;
-    margin: 2.55% 0;
-    
+    margin: 2.55% 0;    
+}
+@media screen and (min-width: 376px){
+    .logo-in-footer{
+        width: 60%;
+        margin: 5% 0;;
+    }    
 }
 
 .social-icons-in-footer-container{
     margin: 10% 0;
+}
+@media screen and (min-width: 376px){
+    .social-icons-in-footer-container{
+        margin: 5% 0;;
+    }    
 }
 
 .social-icon{
     width: 10%;
     padding-right: 5%; 
 }
+@media screen and (min-width: 376px){
+    .social-icon{
+        width: 10%;
+        padding-right: 1%;        
+    }    
+}
+
+@media screen and (min-width: 376px){
+    .logo-and-social-icons-in-footer-container{
+        float:left;
+    }
+}
 
 .auto-info-in-footer-container{
     margin: 20% 0;
+}
+@media screen and (min-width: 376px){
+    .auto-info-in-footer-container{
+        margin: 3% 0;
+        text-align: right;
+    }
 }
 
 .auto-info{
@@ -126,6 +220,15 @@ footer{
     display: block;
     margin-bottom: 2.5%;
 }
+@media screen and (min-width: 376px)
+{
+    .auto-info{
+        margin: 0 ;
+        margin-left: 5%;
+        display: inline;
+        font-size: 1.1rem;        
+    }    
+}
 
 .copyright{
     text-align: center;
@@ -133,4 +236,11 @@ footer{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: .75rem;
+}
+@media screen and (min-width: 376px){
+    .copyright{
+        margin: 4% 0;
+        text-align:right;
+        font-size: .9rem;
+    }
 }
