@@ -165,19 +165,26 @@ footer{
     }    
 }
 
+@media screen and (min-width: 376px){
+    .logo-and-social-icons-in-footer-container{
+        float: left;
+        width: 20%;
+    }
+}
+
 .logo-in-footer{
-    width: 70%;
+    width: 100%;
     margin: 2.55% 0;    
 }
 @media screen and (min-width: 376px){
     .logo-in-footer{
-        width: 60%;
-        margin: 5% 0;;
+        width: 100%;
+        margin: 8% 0;;
     }    
 }
 
 .social-icons-in-footer-container{
-    margin: 10% 0;
+    margin: 15% 0;
 }
 @media screen and (min-width: 376px){
     .social-icons-in-footer-container{
@@ -191,15 +198,9 @@ footer{
 }
 @media screen and (min-width: 376px){
     .social-icon{
-        width: 10%;
-        padding-right: 1%;        
+        width: 15%;
+        padding-right: 2%;        
     }    
-}
-
-@media screen and (min-width: 376px){
-    .logo-and-social-icons-in-footer-container{
-        float:left;
-    }
 }
 
 .auto-info-in-footer-container{
@@ -239,7 +240,7 @@ footer{
 }
 @media screen and (min-width: 376px){
     .copyright{
-        margin: 4% 0;
+        margin: 4.5% 0 4%;
         text-align:right;
         font-size: .9rem;
     }
